@@ -2,7 +2,7 @@ pipeline {
     environment {
         registry = "169395/mywordpresswebsite"
         registryCredential = 'akshata@123'
-        prodImage = ''
+        prodImage = 'ubuntu'
         PROD_DB_HOST = credentials('wordpress.cikrt1wxrd3j.us-east-1.rds.amazonaws.com')
         PROD_DB_DATABASE = credentials('wordpress')
         PROD_DB_USERNAME = credentials('wordpress')
